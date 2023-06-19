@@ -1,0 +1,112 @@
+
+*   {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+
+.global__textoBlanco    {
+    color: rgb(255, 254, 254);
+}
+
+.contenedor {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:  #FDFDFD;
+   align-items: center;
+}
+
+.contenedor__padding    {
+    padding-right: 12%;
+    padding-left: 12%;
+}
+
+/* header */
+
+
+.header__logo   {
+    height: 250px; 
+    background-image: url(https://www.libreriacervantes.com.sv/wp-content/uploads/2022/08/WebCervantes-04.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    
+}
+
+.header__fondo  {
+    height: 350px;
+    background-image:  url(https://images2.alphacoders.com/589/589399.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    top: 235px;
+}
+.header__local  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+
+.header__local__img  {
+    height: 500px;
+    width: 1000px;
+    position: absolute;
+    top: 310px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(https://live.staticflickr.com/2897/13911466249_7efc920fb2_b.jpg);
+    box-shadow: 3px 10px 11px 5px rgba(0,0,0,0.3);
+    
+   
+}
+
+
+.header__textoGrande   {
+    z-index: 1;
+     padding-left: 100px;
+     padding-right: 200px;
+    width: 60%;
+font-size: 50px;
+padding-bottom: 50px;
+font-weight: 700;
+}
+
+.header__textoPequeño   {
+    z-index: 1;
+    padding-left: 100px;
+    padding-right: 200px;
+    width: 70%;
+
+}
+
+/* Contenedor Main */
+
+.contenedorMain {
+    padding-top: 200px;
+}
+
+.main__titulo   {
+font-weight: 700;
+font-size: 70px;
+padding-bottom: 50px;
+padding-top: 60px;
+}
+
+.main__subtitulo    {
+    font-weight: 700;
+font-size: 40px;
+padding-bottom: 50px;
+padding-top: 60px;
+}
+
+.main__texto    {
+
+}
